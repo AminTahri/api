@@ -1,6 +1,8 @@
 .App {
   text-align: center;
+  background-color: bisque;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +37,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+.movie-list{
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  /* justify-content: center; */
+  justify-content: space-around;
+  margin: 50px;
+}
+img{
+  width: 286px;
+  height:402px ;
+}
+ 
+body{
+  background-color: #282c34;
+}
+
+.card{
+  border-radius: 8px;
+  background-color: #282c34;
+  position: relative;
+  margin: 1rem;
+  width: 400px;
+  
+}
+.card :hover{
+  opacity: 0.7;
 }
